@@ -25,8 +25,8 @@ body {
 
 .cube {
     position: relative;
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     margin: .5rem;
     transform-style: preserve-3d;
     transition: transform 2s ease-in-out;
@@ -65,34 +65,34 @@ body {
 }
 
 .front {
-    transform: translateZ(3.5rem);
+    transform: translateZ(3rem);
     background: #FFFD66;
 }
 
 .back {
-    transform: translateZ(-3.5rem);
+    transform: translateZ(-3rem);
     background: #FFFC69;
 }
 
 .left {
-    transform: rotateY(-270deg) translateX(3.5rem);
+    transform: rotateY(-270deg) translateX(3rem);
     transform-origin: top right;
     background: #F0E97D;
 }
 
 .right {
-    transform: translateZ(-3.5rem) rotateY(270deg);
+    transform: translateZ(-3rem) rotateY(270deg);
     transform-origin: top left;
     background: #F0E97D;
 }
 
 .top {
-    transform: translateY(-3.5rem) rotateX(90deg);
+    transform: translateY(-3rem) rotateX(90deg);
     background: #EBE849;
 }
 
 .bottom {
-    transform: translateY(3.5rem) rotateX(-90deg);
+    transform: translateY(3rem) rotateX(-90deg);
     background: #EBE849;
 }
 
